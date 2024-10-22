@@ -45,6 +45,7 @@ for ($i = 1; $i <= 20; ++$i) {
 }
 
 // pop all values
-while (($val = $s1->pop()) != null) {
-	echo $val . "\n";
-}
+// while (($val = $s1->pop()) != null) {
+// 	echo $val . "\n";
+// }
+echo $s1->top() . "\n";
